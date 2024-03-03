@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+</head>
+<body>
+    
+        
+           <h1>"ALBIRZON ACADEMY"</h1>
+           <H2>Admission  Form</H2>
+
+      <form  id="admissionform"action="sucessfull.html" method="get">
+      <div>Student Name:  <input type="text" name="Student Name" placeholder="Full Name" required></div> <br>
+      <div>Father Name: <input type="text"name="Father Name"required></div> <br>
+      <div>Email:   <input type="text"name="Email" placeholder="abc@gmail.com" required></div> <br> 
+      <div>Phone Number: <input type="text"name="Phone Number"required ></div> 
+      <br>
+      <div >
+        Gender:  <input type="radio" name="Gender">Male
+        <input type="radio"name="Gender"> Female
+        <input type="radio"name="Gender"> Custom
+      </div>
+      <br>
+      
+        Course Select:          <select name="subject" id="subject">
+         <option value="web devolopment">web development</option>
+         <option value="artificial intelligence">artificial intelligence</option>
+         <option value="Ms office">Ms office </option>
+         <option value="Graphic Design">Graphic Design</option>
+         <option value="English Language">English Language</option>
+         <option value="E Commerce">E Commerce</option>
+         <option value="Digital Marketing">Digital Marketing</option>
+        </select><br><br>
+        <div>
+         Classes Attend: <input type="checkbox" name="Weekdays" id="week"><label for="week">Weekdays</label>
+          <input type="checkbox" name="Weekend" id="weekend"><label for="weekend">Weekend</label>
+        </div>
+        <br><br>
+        Timing:  <input type="radio" name="Timing"id="morning"> <label for="morning">Morning</label>
+        <input type="radio"name="Timing"id="evening"><label for="evening">Evening</label> <br><br> 
+        <div><b>Document:</b>  </div><input type="file"name="document"><br><br>
+       <div><b>Image:</b>  </div><input type="file"name="image" required><br><br>
+        
+        <div>
+        Write about your self: <div><textarea name="my text" id="" cols="40" rows="5"></textarea></div>
+      </div>
+      <br>
+     <label for="ok">Are you eligible?</label> <input type="checkbox" name="ok" id="ok"  checked >
+
+
+<br><br>
+
+      <div><a href="sucessfull.html"><button >Submit</button></a></div>
+       
+      </form>
+
+
+  
